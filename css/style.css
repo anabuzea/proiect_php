@@ -1,0 +1,79 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    background-color: palevioletred;
+}
+
+.jumbotron{
+    background-color: floralwhite;
+}
+
+.btn{
+    background-color: palevioletred;
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.member-card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    transform: scale(1.05); /* Animație simplă la hover */
+    transition: transform 0.3s ease;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.calendar-day {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.calendar-day ul {
+    list-style: none;
+    padding: 0;
+}
+
+.calendar-day ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.calendar-day ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
